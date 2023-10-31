@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Coampatible" content="IE=edge">
+        <meta name="viewport" content="with=device-width", initial-scale=1.0">
+    <title> Bharathy's Restaurant🍽️</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400;1,6..96,500;1,6..96,700&display=swap" rel="stylesheet">    
+    <script src="https://kit.fontawesome.com/a67485f4a9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+<section class="header">
+    <nav>
+    <a href="home.html"><img src="restaurant-covered-plate-on-a-hand.png"></a> 
+    <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i> 
+<ul>
+    <li><a href="menu.html">MENU</a></li>
+    <li><a href="about.html">ABOUT US</a></li>
+    <li><a href="contact.html">CONTACT US</a></li>
+
+</ul>
+    
+
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+</nav>
+<div class="text-box">
+    <h1>Bharathy's Restaurant</h1>
+    <p>Come dine with us & experience an authentic ______ meal in an intimate dining space. We look forward to serving you!</p>
+    
+</div>
+   </section>
+   
+   <section class="footer">
+   <h4>Follow us on</h4>  
+   <div class="icons">
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-snapchat"></i>
+</div>
+<p>Copyrights @Bharathy's Restaurant | 2023</p>
+</section>
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right ="0";
+    }
+        function hideMenu(){
+        navLinks.style.right ="-200px";  
+    }
+</script>
+
+</body>
+    </html>
